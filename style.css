@@ -1,0 +1,83 @@
+* {
+    font-family: 'EB Garamond', serif;;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url("/images/candy.jpg");
+    background-color: #cfcaca;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container{
+    position: center;
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.2); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    transform: translateY(35px);
+    text-align: center;
+    
+}
+h1 {
+    text-align: center;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    color: black;
+}
+.btn {
+    font-size: 2rem;
+    color: #000;
+    border: 1px solid #5f6366;
+    background-color: #bdeef3;
+    border-radius: 8px;
+    width: 200px;
+    height: auto;
+    margin: 15px;
+    padding: 10px;
+}
+.btn:hover{
+    font-size: 1.9rem;
+    background-color: #f1cbd2;
+    border: 1px solid #000;
+    transition: all .3s ease-in-out;
+    border-radius: 8px;
+}
+.btn:focus {
+    outline: 1px solid #000;
+    border-radius: 8px;
+}
+.btn:active {
+    outline: 1px solid #000;
+    border-radius: 8px;
+}
+#button{
+    display: flex;
+    justify-content: center;
+}
+h3 {
+    text-align: center;
+    padding: 35px;
+    color: black;
+}
+#homeButton {
+    text-align: center;
+}
+#choc_items, #sour_items, #baked_items {
+    text-align: center;
+}
+li {
+    display: flex;
+    justify-content: center;
+    list-style: none;  
+    color: black;
+}
+
